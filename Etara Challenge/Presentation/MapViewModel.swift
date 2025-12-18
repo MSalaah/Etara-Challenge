@@ -9,6 +9,7 @@ import Foundation
 import CoreLocation
 
 final class MapViewModel: ObservableObject {
+    
     // MARK: - Dependencies
     private let useCase: PlacesUseCase
 
